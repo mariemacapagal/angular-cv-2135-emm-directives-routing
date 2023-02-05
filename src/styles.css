@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@300&display=swap');
+
+/* section styles */
+section {
+  background-color: #e6e6de;
+  height: 100vh;
+  width: 100vw;
+  scroll-behavior: smooth;
+  align-items: center;
+  display: flex;
+}
+
+/* text styles */
+* {
+  font-family: 'Unbounded', cursive;
+  color: #1c1c1c;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: #363a53;
+}
+
+.container {
+  text-align: center;
+}
+
+h2 {
+  padding-bottom: 4%;
+}
+
+/* navigation bar styles */
+nav {
+  background-color: #e6e6de;
+  display: flex;
+  position: static;
+}
+
+.brand {
+  color: #b65763;
+  margin-left: 2%;
+  font-weight: bolder;
+  font-size: x-large;
+}
+.navs {
+  width: 50%;
+  text-align: right;
+  margin-right: 2%;
+}
+.navs a {
+  color: #8a8d56;
+  margin-left: 5%;
+  font-size: small;
+  font-weight: 600;
+}
+
+/* left and right column styles */
+.colleft {
+  float: left;
+  width: 48%;
+}
+
+.colright {
+  float: right;
+  width: 48%;
+}

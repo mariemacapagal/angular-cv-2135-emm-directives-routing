@@ -1,0 +1,26 @@
+<section class="home" id="home">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <img
+          src="https://github.com/mariemacapagal/image/blob/main/icon.jpg?raw=true"
+          class="rounded-circle"
+          alt="..."
+          width="80%"
+        />
+      </div>
+
+      <div class="col" id="intro">
+        <!-- ngModel / Two way data binding -->
+        <p>
+          Site Visitor's Name:
+          <input [(ngModel)]="yourName" />
+        </p>
+        <hr />
+        <h4>Hey there, {{ yourName }}! I'm</h4>
+        <h1>{{ myName }}</h1>
+        <h5>{{ myInfo }}</h5>
+      </div>
+    </div>
+  </div>
+</section>

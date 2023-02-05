@@ -1,0 +1,21 @@
+.color {
+  color: #8a8d56;
+}
+
+h2 {
+  font-weight: bolder;
+}
+
+svg {
+  margin-right: 2%;
+  fill: #b65763;
+  margin-top: 2%;
+}
+
+svg:hover {
+  fill: #363a53;
+}
+
+p {
+  text-align: justify;
+}

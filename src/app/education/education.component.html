@@ -1,0 +1,14 @@
+<section class="education" id="education">
+  <div class="container">
+    <h2>Education</h2>
+    <div>
+      <!-- ngFor Directives -->
+      <div class="col" *ngFor="let item of education">
+        <h4>{{ item.school }}</h4>
+        <h5>{{ item.level }}</h5>
+        <h6>{{ item.year }}</h6>
+        <hr />
+      </div>
+    </div>
+  </div>
+</section>
